@@ -1,0 +1,153 @@
+DISPSCL: DISPLAY PRICE SCALE DEFINED BY USER   (N=auto scale)
+
+You may request system to allow user to set the high and low prices
+for the top and bottom of each bar chart generated.
+
+If the  DISPSCL  variable is set to Y, then when a chart is about
+to be generated the system will inform you of the current values
+and request that you use the ones specified or enter new values.
+
+The following messages/inquiries are used:
+
+   NEW    HIGH/LOW  VALUES ARE:  xxxxx / yyyyy
+   OLD    HIGH/LOW  VALUES ARE:  aaaaa / bbbbb
+
+   ENTER:  99999 to Use  -OLD-  HIGH/LOW  Values
+
+           TOPVAL: VALUE TO USE FOR TOP    OF BAR GRAPH
+
+           BOTVAL: VALUE TO USE FOR BOTTOM OF BAR GRAPH
+ENDDEF
+
+THE SAME KIND OF THING CAN BE ACCOMPLISHED ON A USER
+SELECTED BASIS BY USING THE  Alt +  F8  key combination
+to offer the same choices during runtime.
+DISPPTN: DISPLAY Ptrns xP x@1/2 P@ N=No H=h/l T=true B=Both
+
+The system automatically determines inflection (swing) points,
+defines pattern numbers based on the current and prior three
+inflection point price levels, posts these pattern numbers on
+the chart, and draws straight lines between between determined
+inflection/turning points.
+
+  N=No Display of Patterns      H=Display P# at High/Low
+  B=Display P# at H/L & True    T=Display P# at True BAR
+
+Pattern numbers can be posted at the High(low) point of the
+swing, the True point of determination of an inflection, or
+at both the High & True points, or no pattern numbers or lines
+will be placed on chart.
+
+Additionally, the system allows one to choose whether to look
+for matches just for the last pattern matched when selecting
+data for projection computation OR
+Select data where consecutive patterns numbers match the last
+TWO (2) recorded pattern numbers.  This is the default and is
+generally considered to provide more reliable projection.
+
+To select only ONE (1) match enter  1N, or 1H, or 1B, or 1T
+depending on choice for display.
+
+This is a feature that you may wish to edit the SWNGVARS.DAT
+file to set your choice as the default.
+ENDDEF
+DISPDIV: DISPLAY N-1,2,.. PROJECTION SUMS .x =mode 0,1,2,3
+
+The number of projections to display can vary from 1 to n,
+where n is the total number of swings that were found that
+matched the specification you establish.
+
+This value is displayed on the screen as  SNW=x/YY/zzz.z
+where:
+x  is the "decimation/compression" value used
+zzz.z  is the apparent profit for ALL swings
+YY is the total number of swings.
+
+If number of projections requested is set to 1 then only
+one projection is displayed and it is the sum of all
+observed projections.  A value of 2 will display a total
+of 2 projections, 3 will display 3 projections . . . . .
+
+The decimal portion of this value (1 to 8) establishes
+the manner in which data is organized before any summing/
+averaging takes place. The following settings are allowed
+
+1 = order by number of days   in first leg.
+2 = order by number of points in first leg  
+3 = order by number of days in sum of first & second leg.
+4 = order by number points  in sum of first & second leg.
+
+Using the above values ONLY data with swings ending
+on current or future bars is displayed.
+
+To display ALL patterns for the selected number of
+patterns to display, the decimal portion of this parameter
+should be set to 5 through 8  (corresponding to 1 thru 4).
+ENDDEF
+DISPONL: DISPLAY C=CANDLE  B=BAR  L=LINE @ CLOSE  O=OPN/CLO
+
+The user can choose to display price data in one of several
+generally known display types:
+
+If Set To:         Display Type
+    C              Candlestick
+    B              Open,High,Low,Close Bar
+    L              Line from Close to Close
+    O              Line from Open to Close to Open . . 
+
+ENDDEF
+DISPOSC: DISPLAY +=OSC/BBW -=HHLL/ANDR+ XXX.YYY (X=CH Y=OS)
+
+Two oscillators exist which may be displayed as desired
+this is done so by assigning some value such as   15.035
+to this variable (or the negative of this value).
+
+The decimal value multiplied by 1000 is the numbers in the
+length for the oscillator function (equivalent to George
+Angell's  LSS5Day oscillator this number is the length of
+the secondary smoothing of oscillator to plot.
+
+The Value before the decimal is the length for computation
+of a "channel" based on the highest high and lowest low
+over the specified number of bars.
+
+If this value is set negative then, using the length that
+is derived from the interger portion of the parameter, the
+system will create:
+  a.  Three Andrew's Pitchforks based on last 5 TPs.
+  b.  A Donchain channel based on the highest high and
+      lowest low encountered in the specified period.
+
+ENDDEF
+DISPMAX: +/-XX.YYY XX=BARS TO DISPLAY   YYY*10,000=MAX LOAD
+
+The max bars to load (.yyy * 10,000 is really only applicable
+to Computrac and Sytech type files and simply limits the     
+number of bars that will be loaded from a file.  Generally
+not used.
+
+The XX portion defining the number of bars to currently
+displayed should be set to your choice for your analysis. 
+This is the value at the time you read a file and may be
+changed later simply by defining new beginning and ending
+dates to display using the  F2  key operation.
+
+ENDDEF
+EXTENDA: #BARS TO EXTEND ZONE AFTER LAST BAR (-=NO FIB LIN)
+
+Blank space on the screen AFTER the last data point can be
+established by setting this variable to whatever value is
+desired.  Typically a value of 30 provides sufficient 
+area for projections.
+
+The system generates a histogram of the first two legs
+of all swings that were found.  You may inhibit the display
+of this histogram by making the value of this variable
+negative.
+
+ENDDEF
+ASCIEXT: EXTENSION TO USE WITH ASCII FILES Csv/Prn/Txt/Asc 
+
+This is provided for later use.  Set it to whatever is 
+your most used extension for ASCII files.
+ENDDEF

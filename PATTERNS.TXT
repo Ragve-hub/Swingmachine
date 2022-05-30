@@ -1,0 +1,291 @@
+
+First let me mention two names:
+
+   1     Henry Wheeler Chase 
+   2     Arthur A  Merrill
+
+The work of Henry Wheeler Chase is buried in a pile of papers
+somewhere in the files of Curt Hessler and maybe elsewhere but if so I
+don't know where it is.
+
+At one time Curt and Larry Williams were partners   During this period
+they acquired (from Mr. Chases' estate) all of Henry Wheeler Chases'
+remaining documentation about his method for trading.  The method was
+called the Supply/Demand formula and was a very complicated method of
+trading.   (Papers describing method are dated 12/48).
+
+Part of the Supply/Demand was a method of classification of swings
+using ring points. Unfortunately HWC had not organized things as well
+as he might and probably some of the things he had wanted to say kind
+of got lost.
+
+Arthur A  Merrill wrote a number of wonderful books on market behavior
+and a few other things.  These are a few:
+
+    Behavior of Prices on Wall Street
+    Seasonal Tendencies in Stock Prices
+    Bear Market Characteristics
+    Market Indicators and Growth Company Ratings
+    How Do You Use the Slide Rule
+    Log Scale Construction
+    ABC of Log Chart Calculations
+    Chess Openings Simplified
+
+To my mind the most significant (Filtered Waves - Basic Theory) really
+laid the groundwork for me to reorganize the stuff I had gotten from
+Curt into what for me was something useful  To give you an idea of
+when this really got started, I checked my book and found that Mr.
+Merrill signed my copy of this book on 082884 even though the stuff I
+got from Curt came along a lot earlier than that.
+
+In a later work, Behavior of Prices on Wall Street, Mr. Merrill talks
+about M and W waves and gives a listing of the 32 patterns he
+identifies.
+
+In classifying the M and W waves he uses 5 turning points and
+consequently ends up with a lot more patterns  Also, in this book he
+provided an appendix with the classification of waves laid out by
+Dernell Every.  Every defined 18 patterns. 
+
+I went through this whole mess analyzing the patterns and came to the
+conclusion that the four Turning Point method provided the most
+realistic answer -- partly because I could define a set of patterns
+that were useful and were limited in number to ten patterns.
+
+The following is a description of and graphic representation of the
+concepts of pattern identification I gathered from the above noted
+material.
+
+As an ease to definition of patterns we will establish a couple of
+conventions: 
+
+1  Turning Point - a price at which, on both sides of this point, we
+   find the prices either higher or lower than the turning point
+   price.
+
+2  BottomTP - a low price on which the low prices prices on the
+   preceding and following bars are higher than the low price at
+   the BTP.
+
+3  TopTP  - a high price on each side of which the high price on
+   the bars are prices lower than the high at TTP.
+
+4  Pattern  - a series of prices which encompass:
+    BTP - TTP - BTP -TTP  or
+    TTP - BTP - TTP -BTP  in that order.
+    
+Generally we will consider a pattern to encompass 3 price ZONES.
+
+These zones have a specific value ONLY FOR THE PATTERN which we are
+examining and the value is of NO consequence   For convenience we will
+call these zones L/M/H for low, middle, and high.  These zones will
+define the price points at which lie the TTP's AND BTP's .
+
+As a final identification of the patterns we describe, there will be
+10 patterns which will be identified by the numeric values of  zero
+(0)  through  nine (9).
+
+In order to examine relationships between the TP's in a pattern we
+assign alphabetic designations to each TP as it is encountered.  We
+start enumerating with A and end with D 
+
+The  A  point is always the earliest TP in time and the  D  point is
+always the latest turningpoint in time.
+
+I have drawn the zone lines and pattern lines using only alphabetic
+characters.  However, there are associated   gif   file
+which has a pictorial representation of these patterns 
+
+Note that on charts which we present the PATTERN NUMBER (O   9)
+appears at price TP's the equivalent of the letter  D  in the drawings
+below.  I have drawn the patterns in pairs representing similar price
+configurations in DOWN (on the left) and UP (on the right) trends.  We
+can examine the relative position of the  D  point in a pattern
+relative to the  A point in the pattern and establish the trend of
+prices at that moment for all patterns.
+
+The pattern group 5 to 9 have the FIRST LEG (prices going from A to B)
+of the pattern going from lower to higher prices.   Conversely, the
+pattern group 0 to 4 have the FIRST LEG of the pattern going from
+higher to lower prices.
+
+Zone:
+.........B......................C....
+H......./\...................../\....
+......\/..\.................../..\/..
+M......A...\................./...D...
+............\....D......A.../........
+L............\../\...../\../.........
+..............\/.........\/..........
+...............C..........B..........
+Pattern:.#5...................#4.....
+
+
+Zone:
+.............B...............C.......
+H.........../\............../\.......
+.........../..\....D...A.../..\......
+M........./....\../\../\../....\.....
+........./......\/......\/......\....
+L......./........C.......B.......\...
+......\/..........................\/.
+......A............................D.
+...........#8...............#1.......
+
+Zone:
+.........B......................C....
+H......./\...................../\....
+......./..\........D..A......./..\...
+M...../....\....../\./\....../....\..
+....\/......\..../.....\..../......\/
+L....A.......\../.......\../........D
+..............\/.........\/..........
+...............C..........B..........
+Pattern:..#7.................#2......
+
+Zone:
+...................D...A.............
+H................./\../\.............
+.........B......./......\........C...
+M......./\....../........\....../\...
+......\/..\..../..........\..../..\/.
+L......A...\../............\../....D.
+............\/..............\/.......
+.............C...............B.......
+
+Pattern:..#6.................#3......
+
+.Zone:
+..................D......A...........
+.H.............../\...../\...........
+............B.../.........\....C.....
+.M........./\../...........\../\.....
+........../..\/.............\/..\....
+.L......./....C..............B...\...
+.......\/.........................\/.
+........A..........................D.
+
+Pattern:..#9................#0.......
+
+See the PtrnOnly gif file for drawings of these.
+
+Maybe a look at the logic equations for the patterns will help us to
+see the relative postions of prices in each pattern   I'm sure that
+most everyone is familiar with the  <  and  >  symbols but just in
+case:
+
+    <   means that whatever is on the left of the < is less than
+        whatever is on the right of the <  .  
+
+    >   means that whatever is on the left of the < is greater than
+        whatever is on the right of the >  . 
+        
+        (i e   C < A   means the price at turning point C must be less
+        than the price at turning point A) 
+         
+            RELATIONSHIPS BETWEEN PRICES AT   
+PATTERN#    C : A    D : B    D : A     B : A
+                  
+0           C < A    D < B    D < A     B < A
+1           C > A    D < B    D < A     B < A
+2           C > A    D > B    D < A     B < A
+3           C < A    D > B    D < A     B < A
+4           C > A    D > B    D > A     B < A
+                  
+5           C < A    D < B    D < A     B > A
+6           C < A    D > B    D > A     B > A
+7           C < A    D < B    D > A     B > A
+8           C > A    D < B    D > A     B > A
+9           C > A    D > B    D > A     B > A
+                  
+
+How does all this apply to the SwingMachine, the program that performs
+such classifications and then projections ? ? ? ? ?
+
+Well the first thing the program does is to examine all swings which
+exist on the set of data loaded into the program.
+
+The program assigns a classification number (0,1,   ,9) to each
+pattern it encounters and constructs an array which identifies each
+Turning Point (by date/bar number) and the pattern number associated
+with the 3 legs/3 turning points prior to the current point.
+
+The pattern information is used to graph the pattern leg lines and
+identification numbers on the chart that is being constructed.
+
+Once the chart is constructed, the program again reviews all pattern
+identifications in pairs of occurrences   For each such occurrence
+which matches the last two pattern identification numbers on the
+chart, an entry is made about the two legs which occur AFTER the given
+id# pair is found  This entry consists of the slope (computed based on
+the then current closing price of the data in the analyzed pattern)
+and duration (in bars) of the next two (FORWARD IN TIME) legs.
+
+The program then sorts the accumulated data based on the slope of the
+first leg (or number of bars in first leg or price at end of second
+leg or number of bars to second leg as desired) and "tosses" the
+lowest and highest valued entries found.   Just a safety check to
+keep the system from being unduly influenced by a very large or very
+small swing.
+
+As the data is accumulated, for every swing that has an initial leg
+with a length of 2 bars or more, the swing is plotted as a projection
+from the last TP found on the chart. 
+
+An option exists to allow the user to select some type of "AVERAGE"
+output to be plotted by the program.  The user may select either
+1,2,...,999 projections to be made.
+
+For a single projection -- all data is averaged   For a projection of
+two (2) estimates, the half of the data with the lowest selected
+sorting value of the first or second leg (as appropriate) is averaged
+and projected and then the half of the data containing the highest
+first or second leg values is averaged and projected   The same
+concept is followed on higher number of projections. 
+The following question from Hemi Williams is typical
+of several I have received so I am posting an explanation
+for all members.  Trash it if you are not interested in
+SwingMachine
+
+The program plots a series of vertical lines to the
+right of the last date of the chart with some extending
+above and some below a horizontal extending almost to the
+right hand side of the chart.
+
+The horizontal line is the base line.
+
+The upgoing vertical lines are ALL the upgoing HISTORICAL
+price differences in the next upgoing leg, and
+the downgoing vertical lines are ALL the downgoing HISTORICAL
+price differences int the next downgoing leg.
+
+The tighter the distribution the more reliable the projections.
+
+REMEMBER, THESE PRICE DIFFERENCES ARE DERIVED
+FROM THE RATIO OF EACH LEG TO THE CLOSING PRICE
+AT THE END OF THE LEG MULTIPLIED BY THE CURRENT
+CLOSE so these lengths should be valid for NOW! ! !
+
+If you believe that HISTORY REPEATS ITSELF (as you must if you use any
+of the Elliot/Gann/......  time price series projection methods) then
+you should accept the SwingMachine as one of the most significant
+methods of projection of time and price points that is available
+today.
+
+The program can accept data in  ASCII, CSI, Computrac, and TC2000
+format   The program does not care if the input is 1 minute, 1 hour,
+1 day, 1 week, 1 month, 1 year, or any other time period you can
+imagine.
+
+I trust that this will answer most, if not all, of the questions which
+to this point I have rather badly answered 
+
+Sincerely,
+
+Clyde Lee
+
+--
+Clyde Lee   Chairman/CEO            email:   <clydelee@hic net>
+SYTECH Corporation                   Work:   (713) 783-9540
+7910 Westglen, Suite 105              Fax:   (713) 783-1092
+Houston,  TX  77063

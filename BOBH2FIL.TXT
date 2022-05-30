@@ -1,0 +1,40 @@
+
+{Begin Indicator File}
+{This indicator will create an ASCII file of the price data displayed on
+any chart. The "Input" specifies the location and name of the file to be
+exported. If you want to create multiple files with different time
+frames, be sure to change the name of the file before applying the
+indicator, otherwise it will erase the old file.
+
+For ease of use, create a workspace specifically for the purpose of
+exporting data. Set up a separate chart for each item or time frame that
+you want to export data for.  For example, if trading the OEX, you might
+want to set up separate OEX weekly, daily, and hourly charts within one
+workspace.  Be sure to change the "Input" name in the indicator for each
+chart. Then, every time that you open this workspace, three separate
+files will be created containing the exported data.
+
+This indicator is a contribution by BOB Hunt
+
+        Bob Hunt <RHunt.066@worldnet.att.net>
+
+Input: 	Trgt("C:\swngmach\daily");
+Var: 	PS(0), Txt("");
+
+Txt = NumToStr(PriceScale,0);
+PS = StrLen(Txt) - 1;
+
+If BarNumber = 1 Then Begin
+   FileDelete(Trgt);
+   FileAppend(Trgt,"Date,Time,Open,High,Low,Close,V"+NewLine);
+End;
+
+FileAppend(Trgt, NumToStr(date,0) +","+  NumToStr(Time,0) +","+
+NumToStr(Open,PS) +","+ NumToStr(High,PS) +","+ NumToStr(Low,PS) +","+
+NumToStr(Close,PS)+NewLine);
+
+If LastBarOnChart then FileAppend(Trgt,NumToStr(date,0)+NewLine);
+
+Plot1(0,"0");
+
+{End Indicator File}
