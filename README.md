@@ -6,5 +6,6 @@
 3. Проверил все работает
 4. Чуть позже будет web версия
 
-![Screenshot Dosbox]([https://github.com/Ragve-hub/Swingmachine/blob/main/db.png])
+![Dosbox Screenshot](db.png)
+
 
